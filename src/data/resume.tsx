@@ -277,8 +277,8 @@ export const DATA = {
       href: "https://sreenidhi.edu.in/",
       degree: "Bachelor's Degree of Computer Science (BCS)",
       logoUrl: "/snist.png",
-      start: "2016",
-      end: "2021",
+      start: "2018",
+      end: "2022",
     },
   ],
 
