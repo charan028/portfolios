@@ -420,7 +420,7 @@ export const DATA = {
       dates: "April 4th - 5th, 2025",
       location: "UNT, Denton, TX",
       description:
-        "Developed a website where users can input biographical information and a topic of interest. In return, they receive:A curated collection of articles.An AI-generated summary highlighting the differences between their likely perspective and an alternative viewpoint.",
+        " Developed an AI-powered web app using an MCP server with custom agent code to generate personalized content analysis. Users input biographical info and a topic; agents retrieve relevant articles from Convex DB and use Hugging Face Transformers to generate a summary contrasting the user’s likely viewpoint with an alternative perspective.",
       image: "gradhack.png",
       links: [
         {
