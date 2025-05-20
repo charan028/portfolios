@@ -420,7 +420,7 @@ export const DATA = {
       dates: "April 4th - 5th, 2025",
       location: "UNT, Denton, TX",
       description:
-        " Developed an AI-powered web app using an MCP server with custom agent code to generate personalized content analysis. Users input biographical info and a topic; agents retrieve relevant articles from Convex DB and use Hugging Face Transformers to generate a summary contrasting the user’s likely viewpoint with an alternative perspective.",
+        " Developed an AI-powered web app where an MCP (Multi-Component Pipeline) server coordinates custom agents for user profiling, article retrieval from Convex DB, and viewpoint contrast using Hugging Face Transformers. Users enter biographical info and a topic, and receive a curated article set plus an AI-generated summary comparing their inferred perspective with an opposing view.",
       image: "gradhack.png",
       links: [
         {
