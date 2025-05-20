@@ -187,8 +187,8 @@ export const DATA = {
       location: "Hyderabad, India",
       title: "Software Engineer-Intern",
       logoUrl: "/darwinbox.jpg",
-      start: "Jan 2020",
-      end: "Apr 2020",
+      start: "Mar 2022",
+      end: "Aug 2022",
       description: [
         "Designed and deployed a scalable Facility Resource Management System using the MERN stack, streamlining space allocation and enabling real-time resource tracking.",
 
