@@ -371,7 +371,7 @@ export default function Page() {
                 soliciting.
               </p>
 
-              <a href="https://drive.google.com/file/d/1JQS-t6se__3-wds20zZUVV3ayTeSUJvz/view?usp=sharing">
+              <a href="https://drive.google.com/file/d/1TYbiz6kXElVfh7FEqDO_-umG_VgS1gG9/view?usp=sharing">
                 <InteractiveHoverButton>Resume</InteractiveHoverButton>
               </a>
             </div>
