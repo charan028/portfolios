@@ -12,9 +12,9 @@ export const DATA = {
   locationLink:
     "https://www.google.com/maps/search/124%20W.%20Oak%20Street%2C%20Denton%2C%20Texas%2C%20US",
   description:
-    "AI engineer and researcher with a focus on HCI and applied AI research . I love building things and helping people.I also enjoy experimenting with deep learning integrating AI into interactive VR environments.",
+    "AI and VR engineer and researcher focused on Human-Computer Interaction and applying AI to real-world problems. I love building things and helping people.I also enjoy experimenting with deep learning integrating AI into interactive VR environments.",
   summary:
-    "From building AI-driven chatbots, I progressed into applied research and backend development, now working at the intersection of AI, HCI, and systems engineering. I design intelligent systems for cognitive assessment, NLP, and retrieval-augmented search using FAISS, Qdrant, and FastAPI. When I’m not coding, I dive into AI and ML experiments, solve LeetCode problems, or build end-to-end ML projects for real-world use cases. My curiosity drives me to turn advanced machine learning techniques into impactful, user-centered solutions.",
+    "My journey began with building machine learning–based recommendation systems, which sparked my passion for developing intelligent, data-driven applications. Over the past 3+ years, I’ve evolved into a versatile AI and Data Engineer, designing everything from predictive models and NLP systems to scalable backend services and real-time analytics platforms.",
   avatarUrl: "/mef1.jpg",
   skills: [
     "React",
