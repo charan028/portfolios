@@ -313,12 +313,12 @@ export const DATA = {
       video: "ggf.mp4",
     },
     {
-      title: "Virtual Insomnia Patient Asssessment",
+      title: "Virtual Human Platform",
       href: "https://github.com/mcmahanf/VIP_Unreal_Sr",
-      dates: "Feb 2023 - Present",
+      dates: "March 2023 - May 2025",
       active: true,
       description:
-        "Designed and developed AI-integrated psychological assessment research at the University of North Texas, focusing on developing and deploying intelligent systems for cognitive and behavioral analysis. Engineered VR-based simulations for neuropsychological evaluation, processed multimodal data (e.g., EEG, eye-tracking, voice), and integrated Natural Language Processing (NLP) for automated scoring and insight generation. Collaborated on experimental design, statistical modeling, and human-subject studies involving real-time AI feedback and Human-Computer Interaction (HCI) optimization.",
+        "Designed and developed AI-integrated Virtual Human Platform research at the University of North Texas, focusing on developing and deploying intelligent systems for cognitive and behavioral analysis. Engineered VR-based simulations for neuropsychological evaluation, processed multimodal data (e.g., EEG, eye-tracking, voice), and integrated Natural Language Processing (NLP) for automated scoring and insight generation. Collaborated on experimental design, statistical modeling, and human-subject studies involving real-time AI feedback and Human-Computer Interaction (HCI) optimization.",
       technologies: [
         "Python",
         "PyTorch",
