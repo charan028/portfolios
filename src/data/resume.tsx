@@ -14,7 +14,7 @@ export const DATA = {
   description:
     "AI and VR engineer and researcher focused on Human-Computer Interaction and applying AI to real-world problems. I love building things and helping people.I also enjoy experimenting with deep learning integrating AI into interactive VR environments.",
   summary:
-    "My journey began with building machine learning–based recommendation systems, which sparked my passion for developing intelligent, data-driven applications. Over the past 3+ years, I’ve evolved into a versatile AI and Data Engineer, designing everything from predictive models and NLP systems to scalable backend services and real-time analytics platforms.",
+    "My journey began with building machine learning–based recommendation,and optimizing database systems, which sparked my passion for developing intelligent, data-driven applications. Over the past 3+ years, I’ve evolved into a versatile AI and Data Engineer, designing everything from predictive models and NLP systems to scalable backend services and real-time analytics platforms.",
   avatarUrl: "/mef1.jpg",
   skills: [
     "React",
