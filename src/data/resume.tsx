@@ -228,13 +228,13 @@ export const DATA = {
       end: "Feb 2022",
       description: [
         "Built preprocessing pipelines for structured datasets using Python (Pandas, NumPy), enabling smooth data preparation for modeling.",
-        "Performed exploratory data analysis (EDA) and created visualizations using Matplotlib and Seaborn to uncover trends and patterns.",
-        "Trained and evaluated ML models (classification, regression) using scikit-learn, with performance measured via F1 score and AUC.",
-        "Supported experimental deep learning research and collaborated in Agile sprint cycles with the engineering team.",
+        // "Performed exploratory data analysis (EDA) and created visualizations using Matplotlib and Seaborn to uncover trends and patterns.",
+        // "Trained and evaluated ML models (classification, regression) using scikit-learn, with performance measured via F1 score and AUC.",
+        // "Supported experimental deep learning research and collaborated in Agile sprint cycles with the engineering team.",
 
-        // "Built a high-accuracy ML model (92.3%) for predicting employee attrition using Random Forest, Decision Tree, and KNN, enabling proactive HR decision-making.",
-        // "Engineered a complete data pipeline including cleaning, feature encoding, correlation filtering, and SMOTE-based oversampling to improve model robustness.",
-        // "Identified key attrition drivers and visualized insights using Seaborn and Matplotlib, supporting data-driven employee retention strategies.",
+        "Built a high-accuracy ML model (92.3%) for predicting employee attrition using Random Forest, Decision Tree, and KNN, enabling proactive HR decision-making.",
+        "Engineered a complete data pipeline including cleaning, feature encoding, correlation filtering, and SMOTE-based oversampling to improve model robustness.",
+        "Identified key attrition drivers and visualized insights using Seaborn and Matplotlib, supporting data-driven employee retention strategies.",
       ],
       technologies: [
         "SQL",
