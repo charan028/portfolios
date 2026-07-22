@@ -1,20 +1,16 @@
 import { Icons } from "@/components/icons";
-import Navbar from "@/components/navbar";
-import { frame } from "framer-motion";
-import { HomeIcon, NotebookIcon } from "lucide-react";
-import { machine } from "os";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Charan",
   initials: "M",
   url: "https://saicharanmerugu.com",
-  location: "Denton, TX",
-  locationLink:
-    "https://www.google.com/maps/search/124%20W.%20Oak%20Street%2C%20Denton%2C%20Texas%2C%20US",
+  location: "Houston, TX",
+  locationLink: "https://www.google.com/maps/place/Houston,+TX",
   description:
-    "AI and VR engineer and researcher focused on Human-Computer Interaction and applying AI to real-world problems. I love building things and helping people.I also enjoy experimenting with deep learning integrating AI into interactive VR environments.",
+    "AI and VR engineer focused on human-computer interaction and applying AI to real-world problems. I love building things — lately, deep learning systems inside interactive VR environments.",
   summary:
-    "My journey began with building machine learning–based recommendation,and optimizing database systems, which sparked my passion for developing intelligent, data-driven applications. Over the past 3+ years, I’ve evolved into a versatile AI and Data Engineer, designing everything from predictive models and NLP systems to scalable backend services and real-time analytics platforms.",
+    "I got my start building recommendation systems and tuning databases, which turned into a lasting interest in intelligent, data-driven applications. Over the past 3+ years I've worked across AI and data engineering — predictive models, NLP systems, scalable backend services, and real-time analytics platforms.",
   avatarUrl: "/mef1.jpg",
   skills: [
     "React",
@@ -107,6 +103,30 @@ export const DATA = {
 
   work: [
     {
+      company: "ATSER Systems",
+      href: "",
+      badges: [],
+      location: "US (Remote)",
+      title: "Database Administrator",
+      logoUrl: "",
+      start: "May 2026",
+      end: "Present",
+      description: [
+        "Manage production PostgreSQL and SQL Server databases, covering backups, disaster recovery, schema changes, and user access.",
+        "Tune slow queries and indexes, and added connection pooling and read replicas to handle traffic spikes.",
+        "Built ETL pipelines that prepare business data for AI features, including vector search and LLM-based reporting.",
+        "Set up automated monitoring and alerting for database health and capacity planning.",
+      ],
+      technologies: [
+        "PostgreSQL",
+        "SQL Server",
+        "Vector Search",
+        "LLM Integration",
+        "ETL Pipelines",
+        "Performance Tuning",
+      ],
+    },
+    {
       company: "Handshake AI",
       href: "",
       badges: [],
@@ -116,11 +136,10 @@ export const DATA = {
       start: "Feb 2026",
       end: "Present",
       description: [
-        "Designed and refined domain-specific prompts Large Language Models (LLMs) to improve response quality, reasoning consistency, and task alignment across research workflows.",
-        "Evaluated LLM-generated outputs for accuracy, relevance, factual consistency, and adherence to domain-specific standards.",
-        "Performed iterative prompt optimization through structured testing, response comparison, and failure analysis to improve model behavior.",
-        "Contributed to milestone-based research deliverables in a remote, asynchronous environment, maintaining quality and turnaround expectations.",
-        "Documented prompt patterns, evaluation observations, and output quality trends to support reproducible research outcomes.",
+        "Write and refine domain-specific prompts for LLMs used in research workflows, improving response quality and consistency.",
+        "Review model outputs for accuracy, relevance, and adherence to domain guidelines.",
+        "Run structured tests comparing prompt variants and dig into failures to improve model behavior.",
+        "Document prompt patterns and evaluation findings so other researchers can reproduce results.",
       ],
       technologies: [
         "LLMs",
@@ -139,11 +158,10 @@ export const DATA = {
       start: "Nov 2025",
       end: "Feb 2026",
       description: [
-        "Built custom RAG systems integrating transformer models with structured business datasets.",
-        "Developed AI agents with contextual memory for workflow automation across departments.",
-        "Deployed production-grade AI models with monitoring, validation, and performance tracking.",
-        "Integrated AI solutions into internal systems to optimize operational processes.",
-        "Designed experimentation pipelines ensuring reproducibility and business-aligned evaluation metrics.",
+        "Built RAG systems that let transformer models answer questions over the company's business datasets.",
+        "Developed AI agents with contextual memory to automate workflows across departments.",
+        "Deployed models to production with monitoring, validation, and performance tracking.",
+        "Set up experiment pipelines with repeatable, clearly defined evaluation metrics.",
       ],
       technologies: [
         "RAG",
@@ -162,12 +180,11 @@ export const DATA = {
       start: "March 2024",
       end: "Sept 2025",
       description: [
-        "Built Unreal Engine-integrated AI systems with low-latency TTS and STT pipelines, RAG-based retrieval, domain-specific model fine-tuning, and FAISS-powered fast indexing to support real-time multimodal AI workflows.",
-        "Developed RAG-based models for context-aware retrieval and response generation over structured and unstructured datasets.",
-        "Performed model fine-tuning for domain-specific performance improvement, optimizing accuracy, latency, and inference quality.",
-        "Implemented fast vector indexing with FAISS to accelerate semantic search and retrieval in large-scale knowledge systems.",
-        "Worked on multimodal and quantized model optimization to improve inference efficiency and support production-scale deployment.",
-        "Engineered low-latency model serving infrastructure with optimized batching and hardware-aware scheduling.",
+        "Built a virtual human in Unreal Engine with real-time speech-to-text, text-to-speech, and RAG retrieval so it could hold natural conversations.",
+        "Fine-tuned domain-specific models to improve answer accuracy and cut inference latency.",
+        "Added FAISS vector indexing to speed up semantic search over large knowledge bases.",
+        "Quantized and optimized multimodal models so they could serve responses in real time.",
+        "Built the model-serving layer with request batching to keep latency low under load.",
       ],
       technologies: [
         "Unreal Engine",
@@ -189,11 +206,11 @@ export const DATA = {
       start: "August 2022",
       end: "August 2023",
       description: [
-        "Developed machine learning microservices using Python, TensorFlow, and PyTorch to support enterprise automation workflows.",
-        "Built ML models for structured and semi-structured business data to automate classification, tagging, and workflow routing.",
-        "Deployed containerized ML services across cloud environments using Docker on Amazon Web Services and Microsoft Azure.",
-        "Implemented monitoring pipelines for model drift detection, performance validation, and reliability tracking in production systems.",
-        "Worked with engineering and business teams to integrate AI-driven automation solutions into enterprise applications.",
+        "Developed ML microservices in Python, TensorFlow, and PyTorch for enterprise automation.",
+        "Built models that classify, tag, and route business documents and workflow data.",
+        "Deployed containerized services with Docker on AWS and Azure.",
+        "Added drift detection and performance monitoring for models running in production.",
+        "Worked with engineering and business teams to fold the models into existing applications.",
       ],
       technologies: [
         "Python",
@@ -215,10 +232,10 @@ export const DATA = {
       start: "March 2022",
       end: "Aug 2022",
       description: [
-        "Built machine learning models (regression and classification) for predictive analytics and business optimization use cases.",
-        "Performed data cleaning, feature engineering, and preprocessing for structured and semi-structured datasets.",
-        "Evaluated model performance using cross-validation, ROC-AUC, precision-recall, and statistical testing methods.",
-        "Automated reporting and analytics workflows to improve operational efficiency.",
+        "Built regression and classification models for predictive analytics.",
+        "Cleaned data and engineered features from structured and semi-structured datasets.",
+        "Evaluated models with cross-validation, ROC-AUC, and precision-recall.",
+        "Automated recurring reporting and analytics workflows.",
       ],
       technologies: [
         "Python",

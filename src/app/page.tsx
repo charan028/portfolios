@@ -12,11 +12,9 @@ const Hero = dynamic(() => import("@/components/snp/Hero"), { ssr: false });
 
 export default function Page() {
   return (
-    <main className="min-h-screen bg-black text-white selection:bg-white selection:text-black">
+    <main className="min-h-screen bg-[#ece3cf] text-[#26211a] selection:bg-[#26211a] selection:text-[#ece3cf]">
       <Header />
-      <div className="fixed inset-0 z-50 pointer-events-none mix-blend-difference">
-        <div className="bg-noise absolute inset-0 opacity-[0.03]"></div>
-      </div>
+      <div className="fixed inset-0 z-50 pointer-events-none bg-noise opacity-[0.03]" />
 
       <div id="hero">
         <Hero data={DATA} />
